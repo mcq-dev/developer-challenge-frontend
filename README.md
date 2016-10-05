@@ -1,17 +1,30 @@
 # Developer Challenge - Frontend
 
 ### Willkommen :)
-Willkommen bei dieser mcq:dev Frontend Challenge! In dieser Challenge sollst du ein Gefühl für unsere tägliche Arbeit bekommen, bei der es häufig darum geht aus einer mit dem Kunden abgestimmten Designvorlage eine Vorlage für das Web zu bauen. Häufig verwenden wir diese dann zur weiteren Abstimmung oder für die Implementierung in ein Content Mangement System. Außerdem erhalten wir von dir ein Gefühl, was du ganz besonders gut kannst oder bei welchen Baustellen, das Team dich noch abholen kann. Sieh es nicht als "Klausuraufgabe", sondern als Gelegenheit bereits im Vorfeld zu erfahren, was später auf dich unter anderem zukommt. Das Team geht recht offen mit deinen Fragen oder Anmerkungen um, scheu dich also bloß nicht vor Fragen :)
+Willkommen bei dieser mcq:dev Frontend Challenge! In dieser Challenge sollst du ein Gefühl für unsere tägliche Arbeit bekommen, bei der es häufig darum geht aus einer mit dem Kunden abgestimmten Designvorlage eine HTML-Vorlage für das Web zu bauen. Häufig verwenden wir diese dann zur weiteren Abstimmung oder für die Implementierung in ein Content Mangement System. Außerdem erhalten wir von dir ein Gefühl, was du ganz besonders gut kannst oder bei welchen Baustellen, das Team dich noch abholen kann. Sieh es nicht als "Klausuraufgabe", sondern als Gelegenheit bereits im Vorfeld zu erfahren, was später auf dich unter anderem zukommt. Das Team geht recht offen mit deinen Fragen oder Anmerkungen um, scheu dich also bloß nicht vor Fragen :)
+
+### Welcome :)
+Welcome to the mcq:dev Frontend Developer Challenge! In this challenge you should get a feeling for our daily work. Often we have to develop HTML templates based on user interface designs from our designers. We adopt those static templates for further usage within content management systems or for the customer communication process. In addition, we get a better picture about your current skill level and a great insight about things we can learn together with you in the future. Don't think that this is a serious "exam". This challege is your opportunity to see what to expect in the future at mcq:dev. The team is quite open to every question :)
 
 ### Deine Aufgabe
 Deine Aufgabe wird es sein, das Frontend für ein Veranstaltungs-Modul der `gemeinsam digital` Landingpage zu entwickeln. Dieses Modul dient der Darstellung einer oder mehrerer Veranstaltungen, die künftig durch Redakteure in einem Backend-System erstellt werden können. Unser UX Designer Philip hat dafür bereits ein Interface-Design erstellt. Schau es dir am besten einmal an. Du findest es im Ordner `_Material`. Kein Pixel der Vorlage ist in Stein gemeißelt, sondern dient nur der Orientierung für deine Arbeit. Wenn du Vorschläge für eine Optimierung hast, sind diese gerne gesehen.
 
-#### Voraussetzungen an die Programmierung
+### Your task
+Your task is to develop the frontend for an event module for the `gemeinsam digital` landingpage. This module will be used to show one or more events that can be created by editors in a content management system. Your static template should be a good boilerplate for our backend developers. Our UX Designer Philip has already designed a nice user interface. Check it out! You can find the PSD file in the folder `_Material`. This template is just a rough orientation for your work, so we don't expect a pixel perfect frontend. But if you have any suggestions for optimizations of the artwork or for the user experience, everything is welcome at any time.
+
+#### Unsere Erwartungen an die Programmierung
 Wie du im Design erkennen kannst, wird dieses Modul an zahlreichen Stellen auf der Seite verwendet. Unter anderem auf der `Startseite` oder auf der Seite `Veranstaltungen`. Unser Backend-Developer erwartet von dir, dass dein Modul in dieser Form wiederverwendet werden kann, d.h. es muss sich unter anderem den Größenverhältnissen des zu grundliegenden Layoutsystems anpassen. Als Layoutsystem soll [Bootstrap](http://getbootstrap.com) verwendet werden. Dieses bindest du am Besten direkt in deine Seite ein, um das Verhalten zu simulieren.
 
 Beachte bitte, dass dieses Modul später durch ein Backend-Template generiert wird. Sämtliche Texte und Bilder müssen deshalb direkt im DOM liegen und austauschbar sein. Eine Verwendung von Inhalten im CSS Code oder im JavaScript ist nicht zulässig. Davon ausgenommen sind natürlich Interface-Elemente.
 
 Eine Ordner bzw. Projektstruktur geben wir dir nicht vor, du hast hier alle Freiheiten, die du zur Lösung der Aufgabe benötigst.
+
+#### Our coding expectations
+As you can see in the PSD, the event module is used in numerous places on the website, e.g. on the site `Home` or on `Events`. Did you notice how adaptive the module behaves in different layout situations? Our backend Developer expects that your HTML structure can be reused and placed anywhere on the page where it is needed. Our suggestion is it that you use a proper grid system, like [Bootstrap] (http://getbootstrap.com), to check the sizing of the event module in different column dimensions.
+
+Also note that this module will be later generated by a backend template. Every text and image (except for interface assets) have to be placed directly to the DOM and not to CSS or JavaScript.
+
+We do not give you a project structure, you can structurize your frontend project as you like.
 
 ### Ziel
 Ziel soll eine bestmögliche Darstellung und saubere modulare Programmierung des Veranstaltungsmoduls sein. Bitte pushe deine Arbeit, auf den Server, wenn du fertig bist.
@@ -20,6 +33,13 @@ Am Besten ist, du präsentierst das Modul in verschiedenen Spaltenbreiten, z. B.
 
 Solltest du Fragen haben, komme jederzeit auf uns zu!
 
+### The objective
+The objective is the best representation and a clean modular code structure as possible. Please commit your code often and push it to our repo if you're done.
 
+We recommend to put the module in different grid columns, e.g col-12, col-6 and col-3 to show us that your module is reusable.
+
+If you have questions, feel free to ask at any time!
 
 **Wir wünschen dir viel Spaß bei der Lösung der Developer Challenge!**
+
+**We wish you good luck and lots of fun solving this developer challenge!**
